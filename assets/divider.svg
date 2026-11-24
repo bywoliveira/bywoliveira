@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="1000" height="40" role="presentation" aria-hidden="true">
+<defs><linearGradient id="ln" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#3b82f6" stop-opacity="0"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/></linearGradient></defs>
+<style>
+ .a{animation:a 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+ @keyframes a{0%,100%{opacity:.35;transform:scale(.6)}50%{opacity:1;transform:scale(1.15)}}
+ @media (prefers-reduced-motion: reduce){.a{animation:none}}
+</style>
+<rect x="60" y="19" width="880" height="2" rx="1" fill="url(#ln)"/>
+<path class="a" style="animation-delay:0.00s;animation-duration:2.60s" fill="#93c5fd" d="M330,13 Q331.54,18.46 337,20 Q331.54,21.54 330,27 Q328.46,21.54 323,20 Q328.46,18.46 330,13Z"/>
+<path class="a" style="animation-delay:0.50s;animation-duration:2.60s" fill="#fde68a" d="M500,9 Q502.42,17.58 511,20 Q502.42,22.42 500,31 Q497.58,22.42 489,20 Q497.58,17.58 500,9Z"/>
+<path class="a" style="animation-delay:1.00s;animation-duration:2.60s" fill="#93c5fd" d="M670,13 Q671.54,18.46 677,20 Q671.54,21.54 670,27 Q668.46,21.54 663,20 Q668.46,18.46 670,13Z"/>
+</svg>
